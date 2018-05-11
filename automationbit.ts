@@ -103,10 +103,4 @@ namespace automationbit {
         let pin: number = analog
         return pins.analogReadPin(pin)
     }
-
-    export function setup(): void {
-
-    }
 }
-
-automationbit.setup();

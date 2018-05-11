@@ -24,7 +24,7 @@ When the relay is on, Common and Normally Open are connected, and the connection
 
 You can set, get or toggle the relay using the following methods:
 
-```
+```typescript
 automationbit.setRelay(state: number)
 automationbit.getRelay()
 automationbit.toggleRelay()
@@ -39,7 +39,7 @@ automation:bit has two digital outputs which *sink* to ground. This means they c
 * `output` is the output to set, one of `Output.One` or `Output.Two`
 * `state` is the value to write, this must either be `1` or `0`
 
-```
+```typescript
 automationbit.setOutput(output: Output, state:number)
 ```
 
@@ -49,7 +49,7 @@ automation:bit has two 24v-tolerant digital inputs, anything above ~2v will be r
 
 * `input` is the input to read, one of `Input.One`, `Input.Two`
 
-```
+```typescript
 automationbit.getInput(input: Input)
 ```
 
@@ -65,7 +65,7 @@ Read an analog input on automation:bit.
 
 * `analog` is the analog input to read, one of: `Analog.One` or `Analog.Two`
 
-```
+```typescript
 automationbit.getAnalog(analog: Analog)
 ```
 
