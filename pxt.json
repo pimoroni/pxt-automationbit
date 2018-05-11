@@ -1,0 +1,17 @@
+{
+    "name": "automationbit",
+    "version": "0.0.1",
+    "description": "Pimoroni Automation:Bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "automationbit.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
