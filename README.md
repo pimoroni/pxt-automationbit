@@ -98,5 +98,5 @@ SOFTWARE.
 * for PXT/microbit
 
 ```package
-scrollbit=github:pimoroni/pxt-automationbit
+automationbit=github:pimoroni/pxt-automationbit
 ```
